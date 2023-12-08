@@ -1,5 +1,5 @@
 # python
-#COUNT UPPER CASE,LOWER CASE, ALPHABETS AND DIGIT 
+# COUNT UPPER CASE,LOWER CASE, ALPHABETS AND DIGIT 
 n= input("Enter a string: ")
 
 def analyze_string(n):
