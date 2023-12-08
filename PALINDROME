@@ -1,0 +1,11 @@
+# PYTHON
+# PALINDROME
+def is_palindrome(num):
+    num_str = str(num)
+    reversed_str = num_str[::-1]
+    return num_str == reversed_str
+number_to_check = int(input("Enter a number: "))
+if is_palindrome(number_to_check):
+    print(f"{number_to_check} is a palindrome.")
+else:
+    print(f"{number_to_check} is not a palindrome.")
