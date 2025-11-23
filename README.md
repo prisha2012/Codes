@@ -36,7 +36,7 @@ int main(int argc, char ** argv) {
     perror("Failed to close the input file!");
     return EXIT_FAILURE;
   }
-  return EXIT_SUCCESS;
+  return EXIT_SUCCESS;///
 }
 
 #new
